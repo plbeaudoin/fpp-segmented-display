@@ -1,3 +1,9 @@
+#include <fpp-pch.h>
+
+#include "common.h"
+#include "settings.h"
+#include "Plugin.h"
+#include "Plugins.h"
 
 class FPPSegmentedDisplayPlugin : public FPPPlugins::Plugin {
     int brightness = -1;
