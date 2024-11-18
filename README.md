@@ -28,7 +28,7 @@ This Falcon Player (FPP) plugin allows users to upload their model for a 7-segme
 
 ## Support
 
-If you encounter any issues or have any questions, please open an issue on the [GitHub repository](https://github.com/your-repo/fpp-7segment-display/issues).
+If you encounter any issues or have any questions, please open an issue on the [GitHub repository](https://github.com/plbeaudoin/fpp-segmented-display/issues).
 
 ## License
 

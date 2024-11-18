@@ -1,6 +1,6 @@
 {
 	"repoName": "fpp-segmented-display",
-	"name": "FPP Plugin to manage a segmented display",
+	"name": "FPP Segmented Display",
 	"author": "Pierre-Luc Beaudoin", 
 	"description": "This plugin allows you to manage a segmented display",
 	"homeURL": "https://github.com/plbeaudoin/fpp-segmented-display",

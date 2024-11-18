@@ -8,6 +8,7 @@
 class FPPSegmentedDisplayPlugin : public FPPPlugins::Plugin {
     int brightness = -1;
     std::string configLocation;
+    uint8_t map[256];
 
     FPPSegmentedDisplayPlugin() : FPPPlugins::Plugin("fpp-segmented-display") {
         int startBrightness = 100;
@@ -21,14 +22,13 @@ class FPPSegmentedDisplayPlugin : public FPPPlugins::Plugin {
             }
         }
         setBrightness(startBrightness);
-        registerCommand();
     }
 
     virtual ~FPPSegmentedDisplayPlugin() {}
 
     void setBrightness(int i) {
         if (brightness == i) {
-          return
+          return;
         }
           
         brightness = i;
