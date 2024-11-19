@@ -6,10 +6,11 @@
 #include "Plugins.h"
 
 class FPPSegmentedDisplayPlugin : public FPPPlugins::Plugin {
+private:
     int brightness = -1;
     std::string configLocation;
     uint8_t map[256];
-
+public:
     FPPSegmentedDisplayPlugin() : FPPPlugins::Plugin("fpp-segmented-display") {
         int startBrightness = 100;
         configLocation = FPP_DIR_CONFIG("/plugin.fpp-segmented-display.json");
@@ -48,7 +49,7 @@ class FPPSegmentedDisplayPlugin : public FPPPlugins::Plugin {
         val["brightness"] = i;
         SaveJsonToFile(val, configLocation);
     }
-}
+}; 
 
 extern "C" {
     FPPPlugins::Plugin *createPlugin() {
