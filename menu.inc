@@ -13,21 +13,15 @@
 
 $menuEntries = Array(
 	Array(
-		'text' => 'Template - Status',
-		'type' => 'status',
-		'page' => 'status.php',
+		'text' => 'Segmented Display - Settings',
+		'type' => 'output',
+		'page' => 'settings.php',
 		'wrap' => 1
 	),
 	Array(
-		'text' => 'Template - Help',
+		'text' => 'Segmented Display - Help',
 		'type' => 'help',
 		'page' => 'help/help.php',
-		'wrap' => 1
-	),
-	Array(
-		'text' => 'Template - Home',
-		'type' => 'help',
-		'page' => 'https://github.com/FalconChristmas/fpp-plugin-Template',
 		'wrap' => 1
 	),
 	Array(

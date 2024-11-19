@@ -1,7 +1,7 @@
 <?php
 
 include_once '/opt/fpp/www/common.php';
-$pluginName = "FPP-7SegmentDisplay";
+$pluginName = "FPP-Segmented-Display";
 
 if (!isset($pluginSettings) || empty($pluginSettings)) {
     $pluginSettings = array();
@@ -76,3 +76,4 @@ if ($xml !== false) {
 <?php
 }
 ?>
+<h1>Settings</h1>
